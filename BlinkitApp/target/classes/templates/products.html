@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Blinkit Products</title>
+<link rel="stylesheet" href="/css/style.css">
+<script src="/js/script.js"></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Blinkit</h1>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/products">Products</a>
+        <a href="/cart">Cart</a>
+        <a href="/login">Login</a>
+    </nav>
+</header>
+
+<h2 class="title">All Products</h2>
+
+<div class="products">
+
+    <div class="card">
+        <img src="/images/milk.jpg" alt="Milk">
+        <h3>Milk</h3>
+        <p>₹30</p>
+
+        <button onclick="addToCart('Milk',30)">
+            Add To Cart
+        </button>
+
+        <a href="/product-details">
+            <button>View Details</button>
+        </a>
+    </div>
+
+    <div class="card">
+        <img src="/images/bread.jpg" alt="Bread">
+        <h3>Bread</h3>
+        <p>₹40</p>
+
+        <button onclick="addToCart('Bread',40)">
+            Add To Cart
+        </button>
+
+        <a href="/product-details">
+            <button>View Details</button>
+        </a>
+    </div>
+
+    <div class="card">
+        <img src="/images/rice.jpg" alt="Rice">
+        <h3>Rice</h3>
+        <p>₹70</p>
+
+        <button onclick="addToCart('Rice',70)">
+            Add To Cart
+        </button>
+
+        <a href="/product-details">
+            <button>View Details</button>
+        </a>
+    </div>
+
+    <div class="card">
+        <img src="/images/apple.jpg" alt="Apple">
+        <h3>Apple</h3>
+        <p>₹120</p>
+
+        <button onclick="addToCart('Apple',120)">
+            Add To Cart
+        </button>
+
+        <a href="/product-details">
+            <button>View Details</button>
+        </a>
+    </div>
+
+    <div class="card">
+        <img src="/images/banana.jpg" alt="Banana">
+        <h3>Banana</h3>
+        <p>₹60</p>
+
+        <button onclick="addToCart('Banana',60)">
+            Add To Cart
+        </button>
+
+        <a href="/product-details">
+            <button>View Details</button>
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>
